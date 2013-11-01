@@ -21,6 +21,9 @@
 		E05CE9031824156500AC7DBB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E05CE8E51824156500AC7DBB /* UIKit.framework */; };
 		E05CE90B1824156500AC7DBB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E05CE9091824156500AC7DBB /* InfoPlist.strings */; };
 		E05CE90D1824156500AC7DBB /* GeoLoggerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E05CE90C1824156500AC7DBB /* GeoLoggerTests.m */; };
+		E05CE917182415AE00AC7DBB /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E05CE916182415AE00AC7DBB /* MapKit.framework */; };
+		E05CE91D18241B4F00AC7DBB /* ZGLLocationSource.m in Sources */ = {isa = PBXBuildFile; fileRef = E05CE91C18241B4F00AC7DBB /* ZGLLocationSource.m */; };
+		E05CE91E18241B4F00AC7DBB /* ZGLLocationSource.m in Sources */ = {isa = PBXBuildFile; fileRef = E05CE91C18241B4F00AC7DBB /* ZGLLocationSource.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +48,17 @@
 		E05CE8F01824156500AC7DBB /* ZGLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZGLAppDelegate.h; sourceTree = "<group>"; };
 		E05CE8F11824156500AC7DBB /* ZGLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZGLAppDelegate.m; sourceTree = "<group>"; };
 		E05CE8F41824156500AC7DBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		E05CE8F61824156500AC7DBB /* ZGLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZGLViewController.h; sourceTree = "<group>"; };
-		E05CE8F71824156500AC7DBB /* ZGLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZGLViewController.m; sourceTree = "<group>"; };
+		E05CE8F61824156500AC7DBB /* ZGLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ZGLViewController.h; path = GeoLogger/ZGLViewController.h; sourceTree = "<group>"; };
+		E05CE8F71824156500AC7DBB /* ZGLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ZGLViewController.m; path = GeoLogger/ZGLViewController.m; sourceTree = "<group>"; };
 		E05CE8F91824156500AC7DBB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		E05CE8FF1824156500AC7DBB /* GeoLoggerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeoLoggerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E05CE9001824156500AC7DBB /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		E05CE9081824156500AC7DBB /* GeoLoggerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GeoLoggerTests-Info.plist"; sourceTree = "<group>"; };
 		E05CE90A1824156500AC7DBB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E05CE90C1824156500AC7DBB /* GeoLoggerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GeoLoggerTests.m; sourceTree = "<group>"; };
+		E05CE916182415AE00AC7DBB /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		E05CE91B18241B4F00AC7DBB /* ZGLLocationSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZGLLocationSource.h; sourceTree = "<group>"; };
+		E05CE91C18241B4F00AC7DBB /* ZGLLocationSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZGLLocationSource.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,7 @@
 			files = (
 				E05CE8E41824156500AC7DBB /* CoreGraphics.framework in Frameworks */,
 				E05CE8E61824156500AC7DBB /* UIKit.framework in Frameworks */,
+				E05CE917182415AE00AC7DBB /* MapKit.framework in Frameworks */,
 				E05CE8E21824156500AC7DBB /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -82,6 +89,9 @@
 		E05CE8D51824156500AC7DBB = {
 			isa = PBXGroup;
 			children = (
+				E05CE9181824181300AC7DBB /* Model */,
+				E05CE91A1824182800AC7DBB /* Controllers */,
+				E05CE9191824181D00AC7DBB /* Views */,
 				E05CE8E71824156500AC7DBB /* GeoLogger */,
 				E05CE9061824156500AC7DBB /* GeoLoggerTests */,
 				E05CE8E01824156500AC7DBB /* Frameworks */,
@@ -101,6 +111,7 @@
 		E05CE8E01824156500AC7DBB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E05CE916182415AE00AC7DBB /* MapKit.framework */,
 				E05CE8E11824156500AC7DBB /* Foundation.framework */,
 				E05CE8E31824156500AC7DBB /* CoreGraphics.framework */,
 				E05CE8E51824156500AC7DBB /* UIKit.framework */,
@@ -114,10 +125,6 @@
 			children = (
 				E05CE8F01824156500AC7DBB /* ZGLAppDelegate.h */,
 				E05CE8F11824156500AC7DBB /* ZGLAppDelegate.m */,
-				E05CE8F31824156500AC7DBB /* Main.storyboard */,
-				E05CE8F61824156500AC7DBB /* ZGLViewController.h */,
-				E05CE8F71824156500AC7DBB /* ZGLViewController.m */,
-				E05CE8F91824156500AC7DBB /* Images.xcassets */,
 				E05CE8E81824156500AC7DBB /* Supporting Files */,
 			);
 			path = GeoLogger;
@@ -150,6 +157,34 @@
 				E05CE9091824156500AC7DBB /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E05CE9181824181300AC7DBB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E05CE91B18241B4F00AC7DBB /* ZGLLocationSource.h */,
+				E05CE91C18241B4F00AC7DBB /* ZGLLocationSource.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		E05CE9191824181D00AC7DBB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E05CE8F31824156500AC7DBB /* Main.storyboard */,
+				E05CE8F91824156500AC7DBB /* Images.xcassets */,
+			);
+			name = Views;
+			path = GeoLogger;
+			sourceTree = "<group>";
+		};
+		E05CE91A1824182800AC7DBB /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E05CE8F61824156500AC7DBB /* ZGLViewController.h */,
+				E05CE8F71824156500AC7DBB /* ZGLViewController.m */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,6 +235,16 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Zsolt Kiraly";
 				TargetAttributes = {
+					E05CE8DD1824156500AC7DBB = {
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.iOS = {
+								enabled = 1;
+							};
+						};
+					};
 					E05CE8FE1824156500AC7DBB = {
 						TestTargetID = E05CE8DD1824156500AC7DBB;
 					};
@@ -251,6 +296,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E05CE8F81824156500AC7DBB /* ZGLViewController.m in Sources */,
+				E05CE91D18241B4F00AC7DBB /* ZGLLocationSource.m in Sources */,
 				E05CE8F21824156500AC7DBB /* ZGLAppDelegate.m in Sources */,
 				E05CE8EE1824156500AC7DBB /* main.m in Sources */,
 			);
@@ -261,6 +307,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E05CE90D1824156500AC7DBB /* GeoLoggerTests.m in Sources */,
+				E05CE91E18241B4F00AC7DBB /* ZGLLocationSource.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
