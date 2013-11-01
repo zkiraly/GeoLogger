@@ -55,10 +55,10 @@
     _locationManager.pausesLocationUpdatesAutomatically = YES;
     
     _locationManager.delegate = self;
-    _locationManager.desiredAccuracy = kCLLocationAccuracyHundredMeters;
-    
+    //_locationManager.desiredAccuracy = kCLLocationAccuracyHundredMeters;
+    _locationManager.desiredAccuracy = kCLLocationAccuracyNearestTenMeters;
     // Set a movement threshold for new events.
-    _locationManager.distanceFilter = 200; // meters
+    _locationManager.distanceFilter = 100; // meters
     
     [_locationManager startUpdatingLocation];
 }
