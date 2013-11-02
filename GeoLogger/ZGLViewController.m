@@ -13,6 +13,7 @@
 
 @property (nonatomic, strong) ZGLLocationSource *locationSource;
 @property (nonatomic, strong) CLLocationManager *locationManager;
+@property (weak, nonatomic) IBOutlet UIButton *updateButton;
 
 @end
 
@@ -22,7 +23,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-    _locationSource = [[ZGLLocationSource alloc] init];
+    _locationSource = [ZGLLocationSource sharedInstance];
     
     if (_locationSource) {
         _locationSource.locationManager = _locationManager;
@@ -90,17 +91,25 @@
     
     [_mapView addOverlay:polyline level:MKOverlayLevelAboveRoads];
     
+    
+    
     MKCoordinateRegion region;
     if (coordsLen) {
-        region = MKCoordinateRegionMakeWithDistance(coords[coordsLen-1], 2000,2000);
+        
+        CLLocationCoordinate2D regionCoord = ((CLLocation *)_locationSource.locations.lastObject).coordinate;
+        
+        NSLog(@"Trying to ser region: %f N %f E", regionCoord.latitude, regionCoord.longitude);
+        
+        region = [_mapView regionThatFits:MKCoordinateRegionMakeWithDistance(regionCoord, 2000,2000)];
         NSLog(@"Centering map on %@", _locationSource.locations.lastObject);
     } else {
         CLLocationCoordinate2D dLand = CLLocationCoordinate2DMake(33.8090, -117.9190);
-        region = MKCoordinateRegionMakeWithDistance(dLand, 2000,2000);
+        region = [_mapView regionThatFits:MKCoordinateRegionMakeWithDistance(dLand, 2000,2000)];
     }
-    _mapView.region = region;
+    [_mapView setRegion:region animated:YES];
     
-
+    NSLog(@"Set map region to %f N, %f E, spanLat: %f spanLong: %f", _mapView.region.center.latitude, _mapView.region.center.longitude, _mapView.region.span.latitudeDelta, _mapView.region.span.longitudeDelta);
+    
 }
 
 - (MKOverlayRenderer *)mapView:(MKMapView *)mapView rendererForOverlay:(id<MKOverlay>)overlay {

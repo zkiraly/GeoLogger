@@ -14,6 +14,7 @@
 @property (nonatomic, strong) NSMutableArray *locations;
 @property (nonatomic, strong) CLLocationManager *locationManager;
 
++ (ZGLLocationSource *)sharedInstance;
 - (void)startStandardUpdates;
 
 @end

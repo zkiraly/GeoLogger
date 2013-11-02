@@ -7,6 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E002BD6B1825B2DC0090F975 /* ZGLListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E002BD6A1825B2DC0090F975 /* ZGLListViewController.m */; };
+		E002BD6C1825B2DC0090F975 /* ZGLListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E002BD6A1825B2DC0090F975 /* ZGLListViewController.m */; };
+		E002BD6E1825B9840090F975 /* 701-location@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E002BD6D1825B9840090F975 /* 701-location@2x.png */; };
+		E002BD6F1825B9840090F975 /* 701-location@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E002BD6D1825B9840090F975 /* 701-location@2x.png */; };
+		E002BD711825B98E0090F975 /* 701-location.png in Resources */ = {isa = PBXBuildFile; fileRef = E002BD701825B98E0090F975 /* 701-location.png */; };
+		E002BD721825B98E0090F975 /* 701-location.png in Resources */ = {isa = PBXBuildFile; fileRef = E002BD701825B98E0090F975 /* 701-location.png */; };
+		E002BD741825BA140090F975 /* 854-list.png in Resources */ = {isa = PBXBuildFile; fileRef = E002BD731825BA140090F975 /* 854-list.png */; };
+		E002BD751825BA140090F975 /* 854-list.png in Resources */ = {isa = PBXBuildFile; fileRef = E002BD731825BA140090F975 /* 854-list.png */; };
+		E002BD771825BA1D0090F975 /* 854-list@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E002BD761825BA1D0090F975 /* 854-list@2x.png */; };
+		E002BD781825BA1D0090F975 /* 854-list@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E002BD761825BA1D0090F975 /* 854-list@2x.png */; };
+		E002BD7A1825BA320090F975 /* 701-location-selected-selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E002BD791825BA320090F975 /* 701-location-selected-selected@2x.png */; };
+		E002BD7B1825BA320090F975 /* 701-location-selected-selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E002BD791825BA320090F975 /* 701-location-selected-selected@2x.png */; };
+		E002BD7D1825BA380090F975 /* 701-location-selected-selected.png in Resources */ = {isa = PBXBuildFile; fileRef = E002BD7C1825BA380090F975 /* 701-location-selected-selected.png */; };
+		E002BD7E1825BA380090F975 /* 701-location-selected-selected.png in Resources */ = {isa = PBXBuildFile; fileRef = E002BD7C1825BA380090F975 /* 701-location-selected-selected.png */; };
+		E002BD801825BA4D0090F975 /* 723-location-arrow-selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E002BD7F1825BA4D0090F975 /* 723-location-arrow-selected@2x.png */; };
+		E002BD811825BA4D0090F975 /* 723-location-arrow-selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E002BD7F1825BA4D0090F975 /* 723-location-arrow-selected@2x.png */; };
+		E002BD831825BA520090F975 /* 723-location-arrow-selected.png in Resources */ = {isa = PBXBuildFile; fileRef = E002BD821825BA520090F975 /* 723-location-arrow-selected.png */; };
+		E002BD841825BA520090F975 /* 723-location-arrow-selected.png in Resources */ = {isa = PBXBuildFile; fileRef = E002BD821825BA520090F975 /* 723-location-arrow-selected.png */; };
+		E002BD861825BA740090F975 /* 854-list-selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E002BD851825BA740090F975 /* 854-list-selected@2x.png */; };
+		E002BD871825BA740090F975 /* 854-list-selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E002BD851825BA740090F975 /* 854-list-selected@2x.png */; };
+		E002BD891825BA7A0090F975 /* 854-list-selected.png in Resources */ = {isa = PBXBuildFile; fileRef = E002BD881825BA7A0090F975 /* 854-list-selected.png */; };
+		E002BD8A1825BA7A0090F975 /* 854-list-selected.png in Resources */ = {isa = PBXBuildFile; fileRef = E002BD881825BA7A0090F975 /* 854-list-selected.png */; };
+		E002BD8D1825C3B00090F975 /* ZGLListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E002BD8C1825C3B00090F975 /* ZGLListCell.m */; };
+		E002BD8E1825C3B00090F975 /* ZGLListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E002BD8C1825C3B00090F975 /* ZGLListCell.m */; };
 		E05CE8E21824156500AC7DBB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E05CE8E11824156500AC7DBB /* Foundation.framework */; };
 		E05CE8E41824156500AC7DBB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E05CE8E31824156500AC7DBB /* CoreGraphics.framework */; };
 		E05CE8E61824156500AC7DBB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E05CE8E51824156500AC7DBB /* UIKit.framework */; };
@@ -37,6 +61,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E002BD691825B2DC0090F975 /* ZGLListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZGLListViewController.h; sourceTree = "<group>"; };
+		E002BD6A1825B2DC0090F975 /* ZGLListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZGLListViewController.m; sourceTree = "<group>"; };
+		E002BD6D1825B9840090F975 /* 701-location@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "701-location@2x.png"; sourceTree = "<group>"; };
+		E002BD701825B98E0090F975 /* 701-location.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "701-location.png"; sourceTree = "<group>"; };
+		E002BD731825BA140090F975 /* 854-list.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "854-list.png"; sourceTree = "<group>"; };
+		E002BD761825BA1D0090F975 /* 854-list@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "854-list@2x.png"; sourceTree = "<group>"; };
+		E002BD791825BA320090F975 /* 701-location-selected-selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "701-location-selected-selected@2x.png"; sourceTree = "<group>"; };
+		E002BD7C1825BA380090F975 /* 701-location-selected-selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "701-location-selected-selected.png"; sourceTree = "<group>"; };
+		E002BD7F1825BA4D0090F975 /* 723-location-arrow-selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "723-location-arrow-selected@2x.png"; sourceTree = "<group>"; };
+		E002BD821825BA520090F975 /* 723-location-arrow-selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "723-location-arrow-selected.png"; sourceTree = "<group>"; };
+		E002BD851825BA740090F975 /* 854-list-selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "854-list-selected@2x.png"; sourceTree = "<group>"; };
+		E002BD881825BA7A0090F975 /* 854-list-selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "854-list-selected.png"; sourceTree = "<group>"; };
+		E002BD8B1825C3B00090F975 /* ZGLListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZGLListCell.h; sourceTree = "<group>"; };
+		E002BD8C1825C3B00090F975 /* ZGLListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZGLListCell.m; sourceTree = "<group>"; };
 		E05CE8DE1824156500AC7DBB /* GeoLogger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeoLogger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E05CE8E11824156500AC7DBB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E05CE8E31824156500AC7DBB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -173,6 +211,18 @@
 			children = (
 				E05CE8F31824156500AC7DBB /* Main.storyboard */,
 				E05CE8F91824156500AC7DBB /* Images.xcassets */,
+				E002BD8B1825C3B00090F975 /* ZGLListCell.h */,
+				E002BD8C1825C3B00090F975 /* ZGLListCell.m */,
+				E002BD701825B98E0090F975 /* 701-location.png */,
+				E002BD6D1825B9840090F975 /* 701-location@2x.png */,
+				E002BD731825BA140090F975 /* 854-list.png */,
+				E002BD761825BA1D0090F975 /* 854-list@2x.png */,
+				E002BD7C1825BA380090F975 /* 701-location-selected-selected.png */,
+				E002BD791825BA320090F975 /* 701-location-selected-selected@2x.png */,
+				E002BD821825BA520090F975 /* 723-location-arrow-selected.png */,
+				E002BD7F1825BA4D0090F975 /* 723-location-arrow-selected@2x.png */,
+				E002BD881825BA7A0090F975 /* 854-list-selected.png */,
+				E002BD851825BA740090F975 /* 854-list-selected@2x.png */,
 			);
 			name = Views;
 			path = GeoLogger;
@@ -183,6 +233,8 @@
 			children = (
 				E05CE8F61824156500AC7DBB /* ZGLViewController.h */,
 				E05CE8F71824156500AC7DBB /* ZGLViewController.m */,
+				E002BD691825B2DC0090F975 /* ZGLListViewController.h */,
+				E002BD6A1825B2DC0090F975 /* ZGLListViewController.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -274,8 +326,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E002BD831825BA520090F975 /* 723-location-arrow-selected.png in Resources */,
 				E05CE8FA1824156500AC7DBB /* Images.xcassets in Resources */,
+				E002BD771825BA1D0090F975 /* 854-list@2x.png in Resources */,
+				E002BD891825BA7A0090F975 /* 854-list-selected.png in Resources */,
+				E002BD741825BA140090F975 /* 854-list.png in Resources */,
 				E05CE8EC1824156500AC7DBB /* InfoPlist.strings in Resources */,
+				E002BD7A1825BA320090F975 /* 701-location-selected-selected@2x.png in Resources */,
+				E002BD6E1825B9840090F975 /* 701-location@2x.png in Resources */,
+				E002BD711825B98E0090F975 /* 701-location.png in Resources */,
+				E002BD801825BA4D0090F975 /* 723-location-arrow-selected@2x.png in Resources */,
+				E002BD861825BA740090F975 /* 854-list-selected@2x.png in Resources */,
+				E002BD7D1825BA380090F975 /* 701-location-selected-selected.png in Resources */,
 				E05CE8F51824156500AC7DBB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,7 +346,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E002BD721825B98E0090F975 /* 701-location.png in Resources */,
+				E002BD751825BA140090F975 /* 854-list.png in Resources */,
+				E002BD841825BA520090F975 /* 723-location-arrow-selected.png in Resources */,
+				E002BD6F1825B9840090F975 /* 701-location@2x.png in Resources */,
+				E002BD811825BA4D0090F975 /* 723-location-arrow-selected@2x.png in Resources */,
+				E002BD7E1825BA380090F975 /* 701-location-selected-selected.png in Resources */,
 				E05CE90B1824156500AC7DBB /* InfoPlist.strings in Resources */,
+				E002BD8A1825BA7A0090F975 /* 854-list-selected.png in Resources */,
+				E002BD871825BA740090F975 /* 854-list-selected@2x.png in Resources */,
+				E002BD7B1825BA320090F975 /* 701-location-selected-selected@2x.png in Resources */,
+				E002BD781825BA1D0090F975 /* 854-list@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,7 +370,9 @@
 				E05CE8F81824156500AC7DBB /* ZGLViewController.m in Sources */,
 				E05CE91D18241B4F00AC7DBB /* ZGLLocationSource.m in Sources */,
 				E05CE8F21824156500AC7DBB /* ZGLAppDelegate.m in Sources */,
+				E002BD6B1825B2DC0090F975 /* ZGLListViewController.m in Sources */,
 				E05CE8EE1824156500AC7DBB /* main.m in Sources */,
+				E002BD8D1825C3B00090F975 /* ZGLListCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,7 +381,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E05CE90D1824156500AC7DBB /* GeoLoggerTests.m in Sources */,
+				E002BD8E1825C3B00090F975 /* ZGLListCell.m in Sources */,
 				E05CE91E18241B4F00AC7DBB /* ZGLLocationSource.m in Sources */,
+				E002BD6C1825B2DC0090F975 /* ZGLListViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -508,6 +584,7 @@
 				E05CE9121824156500AC7DBB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E05CE9131824156500AC7DBB /* Build configuration list for PBXNativeTarget "GeoLoggerTests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +593,7 @@
 				E05CE9151824156500AC7DBB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
